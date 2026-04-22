@@ -1,0 +1,45 @@
+# Node modules (always exclude)
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Hardhat build artifacts
+artifacts
+cache
+coverage
+
+# Logs
+logs
+*.log
+
+# Environment variables (sensitive)
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Git files
+.git
+.gitignore
+
+# Docker files (optional)
+Dockerfile
+.dockerignore
+
+# Tests (optional, exclude if not needed in container)
+test
+coverage
+
+# Documentation (optional)
+README.md
+docs
+
+# Misc
+*.tsbuildinfo
